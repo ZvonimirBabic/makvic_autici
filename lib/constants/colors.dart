@@ -6,7 +6,9 @@ class MakvicAuticiColors {
   static const Color white = Color(0xFFFFFFFF);
 
   /// Primary colors
-  static const Color primaryBlue = Color(0xFF175676);
-  static const Color primaryLightBlue = Color(0xFF4BA3C3);
+  static const Color primaryBlue = Color(0xFF00ADAD);
+  static const Color primaryLightBlue = Color(0xFF00E0CD);
+  static const Color primaryDarkBlue = Color(0xFF32496B);
+
   static const Color primaryRed = Color(0xFFD62839);
 }
