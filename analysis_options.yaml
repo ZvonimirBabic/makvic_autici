@@ -51,6 +51,7 @@ linter:
     - empty_catches
     - empty_constructor_bodies
     - file_names
+    - flutter_style_todos
     - implementation_imports
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
