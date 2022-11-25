@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../constants/pages.dart';
 import '../../services/logger_service.dart';
 
 class SplashScreenController extends GetxController {
@@ -44,10 +45,10 @@ class SplashScreenController extends GetxController {
     Future.delayed(const Duration(milliseconds: 100), () {
       _alignment.value = Alignment.center;
     });
-    Future.delayed(const Duration(seconds: 4), _finishAnimation);
+    Future.delayed(const Duration(seconds: 3), _finishAnimation);
   }
 
   void _finishAnimation() {
-    logger.w('navigation!');
+    Get.offAllNamed(MakvicAuticiRoutes.homeScreen);
   }
 }
