@@ -16,6 +16,7 @@ class SplashScreenView extends GetView<SplashScreenController> {
             duration: const Duration(seconds: 1),
             alignment: controller.alignment,
             curve: Curves.easeOutBack,
+            // TODO(Zvonimir): Fix asset in Photoshop
             child: Image.asset(
               MakvicAuticiAssets.splashScreenGif,
             ),
